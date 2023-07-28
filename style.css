@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #CAD5E2;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+    gap: 15px;
+    box-shadow: 0 0 10px black;
+    border-radius: 8px;
+    background-color: #C7C11A;
+}
+button{
+    padding: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #C7C11A;
+}
+#displayno{
+    padding: 6px 16px;
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #38CC77;
+    border: 2px solid black;
+}
+#reset{
+    background-color: #E21717;
+    cursor: pointer;
+}
+#incrementbutton,#decrementbutton{
+    background-color: #12B0E8;
+}
+#incrementbutton,#decrementbutton:hover{
+    cursor: pointer;
+}
